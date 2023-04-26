@@ -1,7 +1,3 @@
-<form name="myFrom" method="post">
-    <input type="text" name="fname" />
-</form>
-
 function onClickUploadSample()
 {
     alert("click upload")
