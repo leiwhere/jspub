@@ -11,6 +11,11 @@ function onClickUploadSample()
     $("#justdoit")[0].click();
 }
 
+function onAnalyseContent()
+{
+    alert("analyse content");
+}
+
 function onQueryScriptType()
 {
     alert("click script type")
