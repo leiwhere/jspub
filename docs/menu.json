@@ -1,7 +1,7 @@
 [
   {
     'group_name': '识别工具',
-    'menu_url' :  ''
+    'menu_url' :  'https://leiwhere.github.io/jspub/test.js',
     'menu_list':
     [
       {
@@ -11,23 +11,9 @@
       {
         'menu_name': '文件名识别',
         'menu_fun' : 'OnFileName'
-      }, 
-    ]
-  },
-  
-  {
-    'group_name': '分析工具',
-    'menu_url' :  ''
-    'menu_list':
-    [
-      {
-        'menu_name': 'PE分析',
-        'menu_fun' : 'OnAnalysePE'
-      },
-      {
-        'menu_name': 'JS分析',
-        'menu_fun' : 'OnFileName'
-      }, 
+      }
     ]
   }
+  
+
 ]
