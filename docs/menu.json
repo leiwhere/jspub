@@ -1,16 +1,16 @@
 [
   {
-    'group_name': '识别工具',
-    'menu_url' :  'https://leiwhere.github.io/jspub/test.js',
-    'menu_list':
+    "group_name": "识别工具",
+    "menu_url" :  "https://leiwhere.github.io/jspub/test.js",
+    "menu_list":
     [
       {
-        'menu_name': '格式分析',
-        'menu_fun' : 'OnFileFormat'
+        "menu_name": "格式分析",
+        "menu_fun" : "OnFileFormat"
       },
       {
-        'menu_name': '文件名识别',
-        'menu_fun' : 'OnFileName'
+        "menu_name": "文件名识别",
+        "menu_fun" : "OnFileName"
       }
     ]
   }
