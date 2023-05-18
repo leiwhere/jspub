@@ -1,6 +1,7 @@
 
 console.log("load plugin test");
-set_menu("分析内容", onAnalyseContent);
+console.log("set plugin menu");
+$sec_playground.func_set_menu("分析内容", onAnalyseContent);
 
 function onAnalyseContent()
 {
