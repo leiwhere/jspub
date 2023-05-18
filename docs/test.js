@@ -1,4 +1,5 @@
 
+console.log("load plugin test");
 set_menu("分析内容", onAnalyseContent);
 
 function onAnalyseContent()
