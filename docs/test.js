@@ -5,10 +5,10 @@ var msg = []
 msg.push("############# begin lodding plugin ##################")
 
 $sec_playground.set_menu_func("AI 插件测试", onAI_Test);
-msg.push("Set menu name is: 分析内容, func name is: onAnalyseContent")
+msg.push("Set menu name is: AI 插件测试, func name is: onAnalyseContent")
 
 $sec_playground.set_menu_func("AI 格式分析", onAI_AnalyseFormat);
-msg.push("Set menu name is: 分析内容, func name is: onAnalyseContent")
+msg.push("Set menu name is: AI 格式分析, func name is: onAnalyseContent")
 
 $sec_playground.set_message_func("Load Plug", msg)
 msg.push("############# begin lodding plugin ##################")
