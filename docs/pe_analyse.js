@@ -27,7 +27,7 @@ function onAI_Diasm()
   var question = "你是反汇编专家，请帮我回答一个问题，我输入文件的内容是HEX格式，你帮我进行指令反汇编，我输入的内容是：" 
   question = question + content
 
-  const result = await window.chatgpt_query(question)
+  var result = window.chatgpt_query(question)
   
   if(result.STATUS == false)
   {
