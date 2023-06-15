@@ -36,7 +36,7 @@ function onAI_Diasm()
     $SPG$.write_msg_console("AI 分析文件格式失败", msg)
     $SPG$.add_result("反汇编:", "ERROR: AI 分析失败, 请检查网络是否正常，或者AI服务KEY是否过期")
   }else{
-    var obj = JSON.parse(JSON.stringify((await result).DATA));
+    var obj = result.DATA;
     $SPG$.add_result("反汇编结果:", obj) 
     $SPG$.write_msg_console("AI 反汇编完成!", null)
   }
