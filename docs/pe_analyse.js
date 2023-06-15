@@ -12,7 +12,7 @@ msg.push("Add menu name is: AI 格式分析, func name is: onAnalyseContent")
 $SPG$.write_msg_console("Load Plug", msg)
 msg.push("############# begin lodding pe analyse plugin ##################")
 
-function onAI_Diasm()
+async function onAI_Diasm()
 {
   $SPG$.write_msg_console("开始分析被选择的内容", null)
 
@@ -27,7 +27,7 @@ function onAI_Diasm()
   var question = "你是反汇编专家，请帮我回答一个问题，我输入文件的内容是HEX格式，你帮我进行指令反汇编，我输入的内容是：" 
   question = question + content
 
-  var result = window.chatgpt_query(question)
+  const result = await window.chatgpt_query(question)
   
   if(result.STATUS == false)
   {
