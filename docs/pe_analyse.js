@@ -4,10 +4,10 @@ var msg = []
 msg.push("############# begin lodding pe analyse plugin ##################")
 
 $SPG$.add_menu("AI 指令反汇编", onAI_Diasm);
-msg.push("Add menu name is: AI 插件测试, func name is: onAnalyseContent")
+msg.push("Add menu name is: AI 插件测试, func name is: onAI_Diasm")
 
 $SPG$.add_menu("AI 功能分析",  onAI_Funtion);
-msg.push("Add menu name is: AI 格式分析, func name is: onAnalyseContent")
+msg.push("Add menu name is: AI 格式分析, func name is: onAI_Funtion")
 
 $SPG$.write_msg_console("Load Plug", msg)
 msg.push("############# begin lodding pe analyse plugin ##################")
