@@ -24,7 +24,7 @@ async function onAI_Diasm()
       return
   }
   
-  var question = "你是反汇编专家，请帮我回答一个问题，我输入文件的内容是HEX格式，你帮我进行指令反汇编，按32位或64位x86指令进行反汇编，你输出的格式，第一列HEX内容，第二列指令内容，输出的每列要对齐，我输入的内容是：" 
+  var question = "你是反汇编专家，请帮我回答一个问题，我输入文件的内容是HEX格式，你帮我进行指令反汇编，按32位或64位x86指令进行反汇编，我输入的内容是：" 
   question = question + content
 
   const result = await window.chatgpt_query(question)
