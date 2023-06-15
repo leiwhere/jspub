@@ -44,3 +44,7 @@ function onAI_Diasm()
   $SPG$.write_msg_console("AI 分析文件格式结束!", null)
     
 }
+
+function onAI_Funtion()
+{
+}
